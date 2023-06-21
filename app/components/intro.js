@@ -9,16 +9,16 @@ export default function Intro() {
             <div>
                 <ul className="nav">
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Home</a>
+                        <a className="nav-link" href="#home">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">About</a>
+                        <a className="nav-link" href="#about">About</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Blog</a>
+                        <a className="nav-link" href="#blog">Blog</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Contact</a>
+                        <a className="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import profile1Pic2 from '../images/image3.png'
 export default function About() {
     return <>
-        <div class="row-colour">
+        <div class="row-colour" id='about'>
             <div class="row">
                 <h1 class='text-primary-colour'><strong>About</strong></h1>
                 <div class="col-5">
