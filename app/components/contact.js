@@ -1,15 +1,15 @@
 import Image from 'next/image'
-import Logo1 from '../images/github.png'
-import Logo2 from '../images/Linkedin.png'
+import logo1 from '../images/git.png'
+import logo2 from '../images/linkedin.png'
 export default function Contact() {
     return <>
         <div class="row-colour" id='contact'>
             <div class="row">
                 <h2 class="text-primary-colour text-center mt-5"><strong>Connect with me</strong></h2>
-                <div class="row-contact d-flex text-center mt-5">
+                <div class="contact d-flex text-center mt-5">
                     <div class="text-center p-5">
                         <Image
-                            src={Logo1}
+                            src={logo1}
                             className='img-fluid'
                             alt="Github Logo"
                             priority={true} />
@@ -17,7 +17,7 @@ export default function Contact() {
                     </div>
                     <div class="text-center p-5">
                         <Image
-                            src={Logo2}
+                            src={logo2}
                             className='img-fluid'
                             alt="Linkedin Logo"
                             priority={true} />
