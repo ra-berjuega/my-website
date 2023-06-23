@@ -15,7 +15,7 @@ export default function Intro() {
                         <a className="nav-link" href="#about">ABOUT</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#blog">BLOG</a>
+                        <a className="nav-link" href="/blog">BLOG</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#contact">CONTACT</a>
