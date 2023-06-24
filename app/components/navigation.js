@@ -1,7 +1,3 @@
-
-'use client'
-import Image from 'next/image'
-import BlogPic1 from '../images/web.png'
 export default function Nav() {
     return <>
         <div class="d-flex justify-content-between">

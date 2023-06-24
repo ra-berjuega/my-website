@@ -2,27 +2,7 @@ import Image from 'next/image'
 import profile1Pic1 from '../images/image2.png'
 export default function Intro() {
     return <>
-        <div class="d-flex justify-content-between">
-            <div>
-                <h3><strong>RA</strong></h3>
-            </div>
-            <div>
-                <ul className="nav">
-                    <li className="nav-item">
-                        <a className="nav-link" href="#home">Home</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#about">About</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/blog">Blog</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+
         <div class="row">
             <div class="col-6">
                 <Image

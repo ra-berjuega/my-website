@@ -1,3 +1,6 @@
+'use client'
+import Image from 'next/image'
+import BlogPic1 from '../images/web.png'
 import Nav from "../components/navigation";
 import Typewriter from 'typewriter-effect';
 export default function Blog() {
