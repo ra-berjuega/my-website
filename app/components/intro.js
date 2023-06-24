@@ -15,7 +15,7 @@ export default function Intro() {
                 <div>
                     <h1>Hi, I am <span class="text-primary-colour">Rose Ann.</span></h1>
                     <h3>Aspiring Web Developer</h3>
-                    <a className="btn btn-primary text-white rounded-4 mt-3"><strong>Download CV</strong></a>
+                    <a href="/files/CV.docx" download className="btn btn-primary text-white rounded-4 mt-3"><strong>Download CV</strong></a>
                 </div>
             </div>
         </div>
