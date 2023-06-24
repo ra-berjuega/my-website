@@ -1,6 +1,6 @@
 * {
     font-family: 'Inter', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 h1 {
@@ -20,25 +20,35 @@ $primary: #FF3131;
 
 .text-primary-colour {
     color: $primary;
+    font-weight: 500;
 }
 
 .row-colour {
-    height: 500px;
+    height: 450px;
     width: auto;
     background-color: #FFF2F2;
 }
 
-.row-colour h1 {
+.about-text {
+
     margin-top: 30px;
     margin-left: 50px;
 }
 
 .contact img {
-    height: 70px;
+    height: 50px;
     width: auto;
+}
+
+.card {
+    max-width: 300px;
 }
 
 .email {
     max-width: 150px;
 
+}
+
+.highlight-text {
+    font-style: italic;
 }

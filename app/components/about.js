@@ -4,7 +4,7 @@ export default function About() {
     return <>
         <div class="row-colour" id='about'>
             <div class="row">
-                <h1 class='text-primary-colour'><strong>About</strong></h1>
+                <h2 class='about-text text-primary-colour mt-5 '>About</h2>
                 <div class="col-5">
                     <Image
                         src={profile1Pic2}
@@ -18,26 +18,29 @@ export default function About() {
             </div>
         </div>
 
-        <div class="row-colour-about">
-            <h2 class="text-primary-colour text-center mt-5"><strong>My Expertise</strong></h2>
-            <div class="row p-5">
-                <div class="col-sm-6 p-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="card-text">Skilled in various Oracle Cloud Application technical technologies such as delivering Oracle Reports, Data Migration, and Fast Formulas</p>
-                            <h3 class="card-title">Oracle Cloud Application Technical</h3>
+        <div class="row-colour-about ">
+            <h2 class="text-primary-colour text-center mt-5">My Expertise</h2>
+            <div class='justify-content-around d-flex mt-5'>
+                <div class="row">
+                    <div class="col-sm-6 p-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">Skilled in various Oracle Cloud Application technical technologies such as delivering Oracle Reports, Data Conversion/Migration, and Fast Formulas</p>
+                                <h3 class="card-title">Oracle Cloud Application Technical</h3>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-6 p-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="card-text">Experienced in selected Oracle Cloud Application HCM modules, such as Absence, Time and Labor,  Talent, Compensation, Payroll, and Core HR.</p>
-                            <h3 class="card-title"> Oracle Cloud Application - HCM</h3>
+                    <div class="col-sm-6 p-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">Experienced in selected Oracle Cloud Application HCM modules, such as Absence, Time and Labor,  Talent, Compensation, Payroll, and Core HR.</p>
+                                <h3 class="card-title"> Oracle Cloud Application Functional</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </>
 }
