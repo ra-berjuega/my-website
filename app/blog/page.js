@@ -43,10 +43,21 @@ export default function Blog() {
                             <span class="highlight-text mb-5"><strong>Discovering HTML - The Structure of the Web</strong></span><br />
 
                             HTML, short for Hypertext Markup Language, was my first step into the world of web development. I learned about tags, elements, and attributes that define the structure of web pages. With HTML, I could create headings, paragraphs, lists, images, and links, forming the skeleton upon which my websites would be built. <br /><br />
-                            <Image
-                                src={BlogPic1}
-                                className='img-fluid'
-                                priority={true} />
+
+                            <span class="highlight-text"><strong>Unleashing Creativity with CSS</strong></span><br />
+
+                            With HTML providing the structure, I yearned to make my websites visually appealing and engaging. CSS, or Cascading Style Sheets, became my ally. I delved into the world of colors, fonts and layouts. CSS allowed me to add colors to elements, change fonts, position elements on the page, and apply beautiful styles, giving life to my web pages <br /><br />
+
+                            <span class="highlight-text"><strong>Discovering JavaScript</strong></span><br />
+
+                            While HTML and CSS enhanced the look and structure of my websites, I craved interactivity. JavaScript entered the stage as a powerful scripting language, allowing me to add dynamic elements to my web pages.  <br /><br />
+
+                            <span class="highlight-text"><strong>Embracing Version Control with Git</strong></span><br />
+
+                            As my projects grew in complexity, I sought a way to manage my code effectively and collaborate with others. Git, a distributed version control system, became my go-to tool. I learned how to initialize repositories, track changes, create branches, and collaborate with others through features like branching and merging. Git gave me the confidence to experiment with my code while ensuring I could easily roll back to a previous state if needed. <br /><br />
+
+
+
                         </p>
                     </div>
                 </div>
