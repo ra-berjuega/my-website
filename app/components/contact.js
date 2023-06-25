@@ -5,9 +5,9 @@ import logo3 from '../images/gmail.png'
 export default function Contact() {
     return <>
         <div class="row-colour mt-5" id='contact'>
-            <div class="row">
+            <div class="row ">
                 <h2 class="text-primary-colour text-center mt-5">Connect with Me</h2>
-                <div class="contact justify-content-around d-flex text-center mt-5">
+                <div class="contact justify-content-around d-flex text-center mt-5 mb-5">
                     <div class="text-center mt-5">
                         <a href='https://github.com/ra-berjuega'>
                             <Image
